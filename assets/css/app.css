@@ -1,0 +1,58 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+    font-size: 62.5%;
+    overflow-x: hidden;
+    /* scroll-behavior: smooth !important; */
+}
+
+@media only screen and (max-width: 500px) {
+    html {
+        font-size: 58%;
+        overflow-x: hidden;
+    }
+}
+
+body {
+    overflow-x: hidden;
+    overflow-y: hidden;
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.5rem;
+    line-height: 17.9rem;
+    position: relative;
+    letter-spacing: -0.408px;
+}
+
+h1 {
+    font-weight: 700;
+    line-height: 3.4rem;
+    font-size: 3.4rem;
+}
+
+h2 {
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 14px;
+    text-align: center;
+    letter-spacing: 0.374px;
+}
+
+.names {
+    font-weight: 700;
+    font-size: 1.7rem;
+    line-height: 2rem;
+    letter-spacing: 0.374px;
+    color: #000000;
+}
+
+.number {
+    font-weight: 400;
+    font-size: 1.5rem;
+    line-height: 1.8rem;
+    letter-spacing: 0.374px;
+    color: #919698;
+}
