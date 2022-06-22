@@ -7,18 +7,14 @@ module.exports = {
     "./plugins/**/*.{js,ts}",
     // "./nuxt.config.{js,ts}",
   ],
+  css: ["./assets/css/app.css"],
   theme: {
     extend: {
       fontFamily: {
-        body: ['niveau-grotesk'],
+        body: [''],
       },
       colors: {
-        'darkblue': "#0F1744",
-        'green': "#A9F58D",
-        'blue': "#88FFF0",
-        'white': "#FFFFFF",
-        'black': "#06131A",
-        'darkgrey': "#36464F"
+        
       }
     },
   },

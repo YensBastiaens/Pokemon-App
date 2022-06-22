@@ -1,10 +1,11 @@
 <template>
   <div>
-    <HomeApp />
+    <HomeSearchAndSummary />
+    <HomePokemonList />
   </div>
 </template>
 
-<script setup>
+<script>
 
 </script>
 

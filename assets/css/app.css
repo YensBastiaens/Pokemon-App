@@ -8,21 +8,25 @@ html {
     /* scroll-behavior: smooth !important; */
 }
 
-@media only screen and (max-width: 500px) {
+/* @media only screen and (max-width: 500px) {
     html {
         font-size: 58%;
         overflow-x: hidden;
     }
+} */
+.container {
+    padding-left: 1.6rem;
+    padding-right: 1.6rem;
 }
 
 body {
     overflow-x: hidden;
     overflow-y: hidden;
-    font-family: 'SF Pro Display';
+    font-family: 'SF Pro Text';
     font-style: normal;
     font-weight: 500;
     font-size: 1.5rem;
-    line-height: 17.9rem;
+    line-height: 1.79rem;
     position: relative;
     letter-spacing: -0.408px;
 }
@@ -34,11 +38,8 @@ h1 {
 }
 
 h2 {
-    font-weight: 700;
-    font-size: 12px;
-    line-height: 14px;
-    text-align: center;
-    letter-spacing: 0.374px;
+    font-family: 'SF Pro Text';
+    font-style: normal;
 }
 
 .names {

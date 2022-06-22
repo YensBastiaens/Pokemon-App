@@ -1,11 +1,11 @@
 import { defineNuxtConfig } from 'nuxt';
 export default defineNuxtConfig({
-
+    ssr : false,
     //HEAD
     head: {
         title: 'Pokemon App',
         htmlAttrs: {
-            lang: 'nl'
+            lang: 'en'
         },
         meta: [
             { charset: 'utf-8' },
@@ -15,9 +15,7 @@ export default defineNuxtConfig({
         ],
         link: [
             { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
-            { rel: 'stylesheet', href: 'https://use.typekit.net/mkv8ukg.css' }
         ],
-        
     },
     components: [
         {
@@ -38,7 +36,6 @@ export default defineNuxtConfig({
 
     //BUILD
     build: {
-        transpile: ['gsap'],
         postcss: {
             plugins: {
                 "postcss-import": {},
@@ -67,12 +64,5 @@ export default defineNuxtConfig({
         injectPosition: 0,
         viewer: false,
     },
-
-    //CONFIG FOR INTLIFY
-    // intlify: {
-    // 	localeDir: 'locales',
-    // 	vueI18n: {
-    // 	},
-    // },
 
 });
