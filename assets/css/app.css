@@ -5,7 +5,8 @@
 html {
     font-size: 62.5%;
     overflow-x: hidden;
-    /* scroll-behavior: smooth !important; */
+    background: #F9F9F9
+        /* scroll-behavior: smooth !important; */
 }
 
 /* @media only screen and (max-width: 500px) {
@@ -17,6 +18,7 @@ html {
 .container {
     padding-left: 1.6rem;
     padding-right: 1.6rem;
+
 }
 
 body {
@@ -60,4 +62,80 @@ li {
     line-height: 1.8rem;
     letter-spacing: 0.0374rem;
     color: #919698;
+}
+
+.grass {
+    background: #95C24D;
+}
+
+.poison {
+    background: #BA7EC8;
+}
+
+.water {
+    background: #4592C3;
+}
+
+.fire {
+    background: #FD7D25;
+}
+
+.normal {
+    background: #A3ACAE;
+}
+
+.ghost {
+    background: #7B62A3;
+}
+
+.fighting {
+    background: #C13129;
+}
+
+.flying {
+    background: #99A5E4;
+}
+
+.ground {
+    background: #E8D3A4;
+}
+
+.rock {
+    background: #BEA563;
+}
+
+.bug {
+    background: #A9BD42;
+}
+
+.ghost {
+    background: #6762B2;
+}
+
+.steel {
+    background: #AFADC3;
+}
+
+.electric {
+    background: #FDC548;
+}
+
+.psychic {
+    background: #FD6FA1;
+}
+
+.ice {
+    background: #47CEE4;
+}
+
+.dragon {
+    background: #8567ED;
+}
+
+.dark {
+    background: #765A4E;
+}
+
+.fairy {
+    background: #FDB6F2;
 }
