@@ -1,6 +1,6 @@
 import { defineNuxtConfig } from 'nuxt';
 export default defineNuxtConfig({
-    ssr : false,
+    ssr: false,
     //HEAD
     head: {
         title: 'Pokemon App',
@@ -24,15 +24,15 @@ export default defineNuxtConfig({
     ],
     //CSS
     css: [
-         "~/assets/css/app.css"
+        "~/assets/css/app.css"
     ],
 
-    
+
     //MODULES
-    modules: ['@nuxtjs/tailwindcss'] , 
+    modules: ['@nuxtjs/tailwindcss'],
 
     //BUILDMODULES
-    buildModules: ['@nuxtjs/tailwindcss'],
+    buildModules: ['@nuxtjs/tailwindcss', '@pinia/nuxt'],
 
     //BUILD
     build: {

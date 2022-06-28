@@ -1,6 +1,8 @@
 <template>
     <div>
         <DetailpokemonHero />
+
+
     </div>
 </template>
 
@@ -8,5 +10,5 @@
 
 </script>
 
-<style lang="scss" scoped>
+<style scoped>
 </style>
