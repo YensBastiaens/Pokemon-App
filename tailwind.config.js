@@ -8,14 +8,4 @@ module.exports = {
     // "./nuxt.config.{js,ts}",
   ],
   css: ["./assets/css/app.css"],
-  theme: {
-    extend: {
-      fontFamily: {
-        body: [''],
-      },
-      colors: {
-        
-      }
-    },
-  },
 }

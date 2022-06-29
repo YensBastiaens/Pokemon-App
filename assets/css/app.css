@@ -4,7 +4,7 @@
 
 html {
     font-size: 62.5%;
-    overflow-x: hidden;
+    /* overflow-x: hidden; */
     background: #F9F9F9
         /* scroll-behavior: smooth !important; */
 }
@@ -15,8 +15,8 @@ html {
 }
 
 body {
-    overflow-x: hidden;
-    overflow-y: hidden;
+    /* overflow-x: hidden;
+    overflow-y: hidden; */
     font-family: 'SF Pro Text';
     font-style: normal;
     font-weight: 500;
@@ -56,6 +56,8 @@ li {
     letter-spacing: 0.0374rem;
     color: #919698;
 }
+
+/* pokemon types */
 
 .grass {
     background: #95C24D;
@@ -132,3 +134,5 @@ li {
 .fairy {
     background: #FDB6F2;
 }
+
+/* pokemon statistieken */

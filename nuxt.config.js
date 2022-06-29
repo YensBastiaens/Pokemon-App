@@ -32,7 +32,7 @@ export default defineNuxtConfig({
     modules: ['@nuxtjs/tailwindcss'],
 
     //BUILDMODULES
-    buildModules: ['@nuxtjs/tailwindcss', '@pinia/nuxt'],
+    buildModules: ['@nuxtjs/tailwindcss'],
 
     //BUILD
     build: {
@@ -63,6 +63,11 @@ export default defineNuxtConfig({
         config: {},
         injectPosition: 0,
         viewer: false,
+    },
+    loading: {
+        color: 'blue',
+        height: '5px',
+        throttle: 0
     },
 
 });
