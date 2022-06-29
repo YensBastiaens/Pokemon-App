@@ -1,33 +1,14 @@
 <script>
 import { useAxios } from '@vueblocks/vue-use-axios'
 export default {
-  // setup() {
-  //   const url = 'https://stoplight.io/mocks/appwise-be/pokemon/57519009/pokemon'
-  //   const { data } = useAxios(url);
-  //   const pokemons = ref(data);
-  //   return { pokemons }
-
-  // },
-  data() {
-    return {
-      input: '',
-      pokemons: [],
-      pokemonNames: [],
-    }
-  },
-  created() {
+  setup() {
     const url = 'https://stoplight.io/mocks/appwise-be/pokemon/57519009/pokemon'
-    const { data } = useAxios(url);
-    this.pokemons = data;
-    console.log(this.pokemons)
-    this.pokemonNames = this.pokemons.value.map(p => p.name);
+    const { data } = useAxios(url)
+    const pokemons = ref(data)
+
+    // const pokemonNames = pokemons.value.map(p => p.name)
+    return { pokemons }
   },
-  methods: {
-    searchPokemon() {
-      console.log(this.pokemons)
-      console.log(pokemonNames.includes('bulbasaur'))
-    }
-  }
 
 
 }
@@ -44,8 +25,7 @@ export default {
       <div
         class="bg-[#EFF0F1] flex justify-start flex-row gap-[0.6rem] items-center p-[7px_8px] h-[3.6rem] rounded-[1rem] ">
         <img src="~/assets/images/icons/magnifyingglass.svg" class="w-[15.63px] h-[15.78px]" alt="magnifying glass">
-        <input v-model="input" @change="searchPokemon()" class="bg-[#EFF0F1] h-[3.6rem] w-[100%]" type="text"
-          placeholder='Pokemon zoeken'>
+        <input class="bg-[#EFF0F1] h-[3.6rem] w-[100%]" type="text" placeholder='Pokemon zoeken'>
       </div>
       <div class="flex mt-[1.9rem]  justify-between gap-[0.9rem] ">
         <div class="purpleGradient p-[10px_15px] flex flex-col justify-end relative cursor-pointer">

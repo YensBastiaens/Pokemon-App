@@ -19,9 +19,9 @@ export default {
                 </NuxtLink>
 
             </div>
-            <h1 class=" capitalize text-white ml-[0.3rem] mt-[1rem] tracking-[0.374px] mb-[2rem]">Mijn team </h1>
+            <h1 class=" capitalize text-white ml-[0.3rem] mt-[1rem] tracking-[0.374px] mb-[2rem]">Favorieten </h1>
 
-            <ul v-for="(pokemon) in pokemons.slice(0, 3)">
+            <ul v-for="(pokemon) in pokemons.slice(9, 10)">
                 <NuxtLink :to="'/pokemon/' + `${pokemon.id}`"
                     class="individualPokemon my-[1rem] flex flex-row gap-[1rem] w-[100%] h-[7rem] items-center justify-between rounded-[1rem] bg-white cursor-pointer">
                     <div class="flex gap-[0.5rem] items-center">
@@ -53,7 +53,7 @@ export default {
 
 <style scoped>
 .background {
-    background: linear-gradient(109.73deg, #46469C 0%, #7E32E0 100%);
+    background: linear-gradient(109.73deg, #65CB9A 0%, #15D0DC 100%);
     height: 100vh;
 }
 </style>
